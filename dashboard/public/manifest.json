@@ -1,0 +1,35 @@
+{
+  "name": "CampusGuard — Incident Command & Emergency App",
+  "short_name": "CampusGuard",
+  "description": "Mission-critical campus emergency response, incident command triage, and responder dispatch.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#080c16",
+  "background_color": "#080c16",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Trigger SOS",
+      "short_name": "SOS",
+      "description": "Trigger an immediate emergency alert",
+      "url": "/?action=sos",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Tactical Radar",
+      "short_name": "Radar",
+      "description": "Open campus GIS tactical map",
+      "url": "/?tab=map",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["security", "utilities", "government"]
+}
